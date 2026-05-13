@@ -1,3 +1,6 @@
+/* Prevent horizontal scroll from any overflowing child */
+main { overflow-x: clip; }
+
 /* ── RESPONSIVE LAYOUT ── */
 /* Breakpoints: md = 900px, sm = 640px */
 

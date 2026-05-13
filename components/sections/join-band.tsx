@@ -28,7 +28,7 @@ export default function JoinBand() {
         <p style={{ fontFamily: 'var(--font-jp-sans)', fontSize: '13px', color: 'rgba(253,247,235,0.8)', maxWidth: '540px' }}>
           登録3分。広告なし、日本語、無料。240,000人の日本語コミュニティが、最初の一歩を一緒に。
         </p>
-        <div style={{ display: 'flex', gap: '10px' }}>
+        <div style={{ display: 'flex', gap: '10px', flexWrap: 'wrap' }}>
           {[
             { label: '無料で登録', ghost: false },
             { label: 'アプリ DL', ghost: true },

@@ -94,22 +94,24 @@ export default function Hero() {
             style={{
               marginTop: '16px',
               display: 'grid',
-              gridTemplateColumns: '90px 1fr auto',
+              gridTemplateColumns: '72px 1fr auto',
               background: 'var(--paper)',
               color: 'var(--ink)',
               border: '1px solid var(--paper)',
+              overflow: 'hidden',
             }}
           >
             <select aria-label="Category" style={{
               borderRight: '1px solid var(--sand)',
               background: 'var(--cream-warm)',
-              padding: '10px 12px',
+              padding: '10px 8px',
               fontFamily: 'var(--font-sans)',
               fontSize: '11px',
-              letterSpacing: '0.12em',
+              letterSpacing: '0.08em',
               textTransform: 'uppercase',
               outline: 'none',
               border: 'none',
+              minWidth: 0,
             }}>
               <option>All</option>
               <option>BBS</option>
@@ -118,27 +120,30 @@ export default function Hero() {
             </select>
             <input
               type="text"
-              placeholder="ワーホリ準備、シェアハウス、SIN番号..."
+              placeholder="ワーホリ準備、シェアハウス..."
               style={{
-                padding: '10px 14px',
+                padding: '10px 10px',
                 border: 'none',
                 outline: 'none',
                 fontFamily: 'var(--font-jp-sans)',
-                fontSize: '13px',
+                fontSize: '12px',
                 background: 'transparent',
                 color: 'var(--ink)',
+                minWidth: 0,
+                width: '100%',
               }}
             />
             <button style={{
-              padding: '0 18px',
+              padding: '0 14px',
               background: 'var(--maple)',
               color: 'var(--paper)',
               fontFamily: 'var(--font-sans)',
-              fontSize: '11px',
+              fontSize: '10px',
               letterSpacing: '0.14em',
               textTransform: 'uppercase',
               transition: 'background 0.15s',
               border: 'none',
+              whiteSpace: 'nowrap',
             }}
               onMouseEnter={e => (e.currentTarget.style.background = 'var(--ink-mid)')}
               onMouseLeave={e => (e.currentTarget.style.background = 'var(--maple)')}

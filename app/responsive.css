@@ -1,3 +1,19 @@
+/* ── COLOR PALETTE OVERRIDE ── */
+:root {
+  --maple: #1A3D28;
+  --maple-soft: #CC4A8E;
+  --ink: #0D1F14;
+  --ink-mid: #1A3828;
+  --cream: #F4EDD5;
+  --cream-warm: #EDE4C5;
+  --paper: #FAF6E8;
+  --sand: #DDD5B8;
+  --stone: #7A7260;
+  --cedar: #1A3D28;
+  --hair: 1px solid #DDD5B8;
+  --hair-strong: 1px solid rgba(13,31,20,0.14);
+}
+
 /* Prevent horizontal scroll from any overflowing child */
 main { overflow-x: clip; }
 
